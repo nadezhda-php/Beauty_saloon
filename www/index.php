@@ -244,7 +244,10 @@ arsort($alist);
 print_r($alist);
 echo "<br />";
 $alist=array("1"=>123,"2"=>12,"3" => 1234);
-ksort($alist);
+ksort($alist);// сортировка по возрастанию ключей ассоциативного массива
 print_r($alist);
 
+echo "<hr />";
+$file=fopen("a.txt","r+");//r открыть файлайл
+echo $alist;
 ?>
